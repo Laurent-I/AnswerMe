@@ -33,12 +33,12 @@ export default {
   name: "QuestionsComponent",
   props:["questions", "questionsAnswered"],
   emits:['question-answered'],
-  // methods:{
-  //   //Selecting answer emitter function
-  //   selectAnswer(is_correct){
-  //     this.$emit('question-answered', is_correct)
-  //   }
-  // }
+  methods:{
+    //Selecting answer emitter function
+    selectAnswer(is_correct){
+      this.$emit('question-answered', is_correct)
+    }
+  }
 };
 </script>
 
