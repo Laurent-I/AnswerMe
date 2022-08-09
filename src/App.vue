@@ -111,21 +111,21 @@ export default{
       ]
     }
   },
-  // methods:{
-  //   // Keeping track of Answered questions
-  //   questionAnswered(is_correct) {
-  //     if (is_correct) {
-  //       this.totalCorrect++;
-  //     }
-  //
-  //     this.questionsAnswered++;
-  //   },
-  //   // Adding the reset button
-  //   reset(){
-  //     this.questionsAnswered = 0;
-  //     this.totalCorrect = 0;
-  //   }
-  // }
+  methods:{
+    // Keeping track of Answered questions
+    questionAnswered(is_correct) {
+      if (is_correct) {
+        this.totalCorrect++;
+      }
+
+      this.questionsAnswered++;
+    },
+    // Adding the reset button
+    // reset(){
+    //   this.questionsAnswered = 0;
+    //   this.totalCorrect = 0;
+    // }
+  }
 }
 </script>
 
