@@ -1,11 +1,11 @@
 <!--Result Component-->
 <template>
   <div class="result">
-<!--    &lt;!&ndash;Rendering data dynamically &ndash;&gt;-->
-<!--    <div class="title">{{results[resultIndex].title}}</div>-->
-<!--    <div class="desc">-->
-<!--      {{results[resultIndex].desc}}-->
-<!--    </div>-->
+    <!--Rendering data dynamically -->
+    <div class="title">{{results[resultIndex].title}}</div>
+    <div class="desc">
+      {{results[resultIndex].desc}}
+    </div>
   </div>
 </template>
 
