@@ -116,6 +116,7 @@ body {
     padding: 10px 25px;
     margin: 10px auto;
     display: block;
+    transition: 0.2s linear all;
 }
 
 .result{
