@@ -1,10 +1,10 @@
 <template>
   <div class="questions-ctr">
-<!--    <div class="progress">-->
-<!--&lt;!&ndash;      Binding Dynamic progress bar Styling&ndash;&gt;-->
-<!--      <div class="bar" :style="{width:`${(questionsAnswered/questions.length) * 100}%`}"></div>-->
-<!--      <div class="status">{{questionsAnswered}} out of {{questions.length}} questions answered</div>-->
-<!--    </div>-->
+    <div class="progress">
+<!--      Binding Dynamic progress bar Styling-->
+      <div class="bar" :style="{width:`${(questionsAnswered/questions.length) * 100}%`}"></div>
+      <div class="status">{{questionsAnswered}} out of {{questions.length}} questions answered</div>
+    </div>
     <transition-group name="fade">
       <div
         class="single-question"
