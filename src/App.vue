@@ -1,18 +1,18 @@
 <template>
   <div class="ctr">
-<!--&lt;!&ndash;    Adding Transition animations&ndash;&gt;-->
-<!--    <transition name="fade" mode="out-in">-->
-<!--    <Questions-->
-<!--      v-if="questionsAnswered < questions.length"-->
-<!--      :questions="questions"-->
-<!--      :questionsAnswered="questionsAnswered"-->
-<!--      @question-answered="questionAnswered"-->
-<!--    />-->
-<!--    <Result v-else-->
-<!--    :results="results"-->
-<!--    :totalCorrect="totalCorrect"-->
-<!--    />-->
-<!--    </transition>-->
+<!--    Adding Transition animations-->
+    <transition name="fade" mode="out-in">
+    <Questions
+      v-if="questionsAnswered < questions.length"
+      :questions="questions"
+      :questionsAnswered="questionsAnswered"
+      @question-answered="questionAnswered"
+    />
+    <Result v-else
+    :results="results"
+    :totalCorrect="totalCorrect"
+    />
+    </transition>
     <button
       type="button"
       class="reset-btn"
