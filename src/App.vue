@@ -121,10 +121,10 @@ export default{
       this.questionsAnswered++;
     },
     // Adding the reset button
-    // reset(){
-    //   this.questionsAnswered = 0;
-    //   this.totalCorrect = 0;
-    // }
+    reset(){
+      this.questionsAnswered = 0;
+      this.totalCorrect = 0;
+    }
   }
 }
 </script>
